@@ -1,0 +1,36 @@
+.box {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  height: auto;
+  border: 2px solid black;
+  text-align: center;
+  align-items: center;
+}
+
+.box form > label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.box form > input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 200px;
+  /* height: 30px; */
+  border-radius: 50px;
+}
+
+.box form > .descripcion {
+  display: block;
+  margin-top: 20px;
+}
+
+.box form > .btn {
+  margin: 20px;
+  width: 250px;
+  height: 40px;
+  background-color: sienna;
+  color: white;
+  border-radius: 50px;
+}
