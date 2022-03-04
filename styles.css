@@ -8,9 +8,26 @@
   align-items: center;
 }
 
-.box form > label {
+form > label {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+.formulario {
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  height: auto;
+  border: 1px solid black;
+  text-align: center;
+}
+.formulario > h2 {
+  display: block;
+  margin: 20px;
+}
+
+.formulario > label > span {
+  color: green;
 }
 
 .box form > input {
@@ -33,4 +50,9 @@
   background-color: sienna;
   color: white;
   border-radius: 50px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }
